@@ -62,7 +62,7 @@ export default function Sidebar() {
       <aside
         className={`
           fixed inset-y-0 left-0 z-50
-          w-60 bg-gray-50 h-screen
+          w-64 bg-gray-50 h-screen
           transform md:translate-x-0
           ${isOpen ? "translate-x-0" : "-translate-x-full"}
           transition-transform duration-200
